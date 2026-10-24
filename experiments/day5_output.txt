@@ -1,0 +1,184 @@
+Resume chunks: 26
+
+=== data\jd1.txt (20 JD chunks, 1.70s) ===
+mean best-match: 0.50 | max: 0.71 | min: 0.32
+
+0.71 | REQ : The intern will work on practical projects, experiment with machine learning models, and contribute to building intelligent solutions.
+       BEST: Machine Learning Intern (Volunteer), Example Student Research Club (Jun 2026 - Aug 2026)
+
+0.65 | REQ : NovaMind Labs - AI/ML Intern
+       BEST: Machine Learning Intern (Volunteer), Example Student Research Club (Jun 2026 - Aug 2026)
+
+0.62 | REQ : NovaMind Labs is looking for a motivated and technically curious AI/ML Intern for students and fresh graduates who want hands-on experience in artificial intelligence, machine learning, data analysis, and developing AI-powered applications.
+       BEST: Machine Learning Intern (Volunteer), Example Student Research Club (Jun 2026 - Aug 2026)
+
+0.61 | REQ : Assist in developing, training, testing, and evaluating machine learning models.
+       BEST: Machine Learning Intern (Volunteer), Example Student Research Club (Jun 2026 - Aug 2026)
+
+0.57 | REQ : Assist in implementing solutions using Python and relevant AI/ML libraries.
+       BEST: Solved 250+ problems on coding platforms and active member of the college AI/ML club.
+
+0.57 | REQ : Familiarity with libraries such as NumPy, Pandas, Scikit-learn, TensorFlow, or PyTorch is an advantage.
+       BEST: ML and Data: NumPy, Pandas, Scikit-learn, PyTorch, Matplotlib, Hugging Face Transformers, sentence-transformers
+
+0.51 | REQ : Basic programming knowledge in Python.
+       BEST: Languages: Python, C++, SQL, JavaScript (basic)
+
+0.51 | REQ : Pursuing or completed a degree in Computer Science, Information Technology, Artificial Intelligence, Data Science, or a related field.
+       BEST: Completed the Machine Learning Specialization on Coursera and a SQL for Data Analysis course.
+
+0.51 | REQ : Research AI/ML algorithms, frameworks, tools, and emerging technologies.
+       BEST: Machine Learning Intern (Volunteer), Example Student Research Club (Jun 2026 - Aug 2026)
+
+0.51 | REQ : Collaborate with the team to develop and test AI-driven solutions.
+       BEST: Solved 250+ problems on coding platforms and active member of the college AI/ML club.
+
+0.49 | REQ : Work with APIs and integrate AI models into applications.
+       BEST: Have not worked with TensorFlow or JAX yet, and currently learning them alongside distributed tools such as
+
+0.49 | REQ : Maintain technical documentation and project reports.
+       BEST: Assisted senior members in preparing datasets, writing evaluation scripts and keeping experiment notes and project reports.
+
+0.46 | REQ : Collect, clean, preprocess, and analyse datasets for model development.
+       BEST: Assisted senior members in preparing datasets, writing evaluation scripts and keeping experiment notes and project reports.
+
+0.45 | REQ : Basic knowledge of data preprocessing, model training, and evaluation.
+       BEST: Completed the Machine Learning Specialization on Coursera and a SQL for Data Analysis course.
+
+0.45 | REQ : Evaluate model performance and assist in improving accuracy and efficiency.
+       BEST: Collaborated with a team of four to test and compare three baseline models and presented the results in a weekly review.
+
+0.41 | REQ : Understanding of fundamental machine learning concepts and algorithms.
+       BEST: Machine Learning Intern (Volunteer), Example Student Research Club (Jun 2026 - Aug 2026)
+
+0.40 | REQ : Academic projects, personal projects, or relevant certifications are an advantage.
+       BEST: ACHIEVEMENTS AND ACTIVITIES
+
+0.39 | REQ : Strong analytical and problem-solving skills.
+       BEST: Solved 250+ problems on coding platforms and active member of the college AI/ML club.
+
+0.37 | REQ : Support the development of AI-powered applications and prototypes.
+       BEST: Finalist, college-level hackathon 2026, for building a sensor-based machine health monitor in 24 hours.
+
+0.32 | REQ : Willingness to learn new technologies and work on practical projects.
+       BEST: Solved 250+ problems on coding platforms and active member of the college AI/ML club.
+
+=== data\jd2.txt (15 JD chunks, 1.88s) ===
+mean best-match: 0.44 | max: 0.60 | min: 0.29
+
+0.60 | REQ : Advanced proficiency in Python and core packages such as PyTorch, TensorFlow, JAX, and Scikit-learn.
+       BEST: Have not worked with TensorFlow or JAX yet, and currently learning them alongside distributed tools such as
+
+0.56 | REQ : We are seeking a highly motivated and technically sound AI Intern to help accelerate the next generation of our predictive algorithms and video analysis architectures.
+       BEST: Machine Learning Intern (Volunteer), Example Student Research Club (Jun 2026 - Aug 2026)
+
+0.50 | REQ : Design, build, and optimize AI/ML models.
+       BEST: Solved 250+ problems on coding platforms and active member of the college AI/ML club.
+
+0.48 | REQ : Experience handling big data with distributed tools such as SQL, PySpark, Polars, and Arrow.
+       BEST: Have not worked with TensorFlow or JAX yet, and currently learning them alongside distributed tools such as
+
+0.48 | REQ : Write production-ready, clean, and modular code to scale pipelines and model architectures in modern cloud environments.
+       BEST: Exposed the pipeline through a simple web interface and documented the setup in a README with usage instructions.
+
+0.47 | REQ : Currently pursuing an MS, MTech, B.Tech, or advanced undergraduate degree in Computer Science, Data Science, Statistics, Mathematics, or a related quantitative field.
+       BEST: Completed the Machine Learning Specialization on Coursera and a SQL for Data Analysis course.
+
+0.46 | REQ : Analyse data annotations and translate them into actionable insights.
+       BEST: Assisted senior members in preparing datasets, writing evaluation scripts and keeping experiment notes and project reports.
+
+0.45 | REQ : Vertex Research India - AI Intern
+       BEST: Machine Learning Intern (Volunteer), Example Student Research Club (Jun 2026 - Aug 2026)
+
+0.45 | REQ : In this role, you will move between exploration and execution: parsing complex data, testing frontier machine learning techniques, and translating business hypotheses into robust software.
+       BEST: Completed the Machine Learning Specialization on Coursera and a SQL for Data Analysis course.
+
+0.44 | REQ : Demonstrable skills in AI/ML, specifically video analysis algorithms and LLMs.
+       BEST: Solved 250+ problems on coding platforms and active member of the college AI/ML club.
+
+0.39 | REQ : Analyze large datasets: mine, clean, and analyze high-dimensional user interaction data, identify behavioural patterns, and turn noisy signals into optimized features.
+       BEST: Cleaned and preprocessed noisy time-series data with Pandas and NumPy, including outlier removal, missing-value handling and feature scaling.
+
+0.38 | REQ : Strong grasp of supervised and unsupervised learning, loss functions, and bias mitigation.
+       BEST: Machine Learning Intern (Volunteer), Example Student Research Club (Jun 2026 - Aug 2026)
+
+0.33 | REQ : Collaborate across engineering and business teams, and translate complex model outputs into clear operational metrics aligned with company KPIs.
+       BEST: Assisted senior members in preparing datasets, writing evaluation scripts and keeping experiment notes and project reports.
+
+0.31 | REQ : You will work on high-impact projects reaching production level infrastructure.
+       BEST: ACHIEVEMENTS AND ACTIVITIES
+
+0.29 | REQ : Build offline evaluation frameworks and contribute to online A/B testing to measure system performance.
+       BEST: Finalist, college-level hackathon 2026, for building a sensor-based machine health monitor in 24 hours.
+
+=== data\jd3.txt (23 JD chunks, 1.21s) ===
+mean best-match: 0.44 | max: 0.65 | min: 0.28
+
+0.65 | REQ : Basic knowledge of Python or JavaScript.
+       BEST: Languages: Python, C++, SQL, JavaScript (basic)
+
+0.57 | REQ : GitHub projects, hackathon projects, or personal AI projects.
+       BEST: Tools: Git, GitHub, Docker, FastAPI, VS Code, Jupyter, Linux
+
+0.55 | REQ : We are looking for an AI Intern who is highly curious about AI, automation, and building real-world solutions using modern AI tools.
+       BEST: Solved 250+ problems on coding platforms and active member of the college AI/ML club.
+
+0.55 | REQ : Experience using AI tools such as ChatGPT, Claude, Gemini, and Codex.
+       BEST: Solved 250+ problems on coding platforms and active member of the college AI/ML club.
+
+0.51 | REQ : Work with LLMs such as OpenAI, Claude, Gemini, and other AI models.
+       BEST: Have not worked with TensorFlow or JAX yet, and currently learning them alongside distributed tools such as
+
+0.50 | REQ : Experience with tools such as n8n, Make, Zapier, LangChain, MCP, or similar.
+       BEST: Tools: Git, GitHub, Docker, FastAPI, VS Code, Jupyter, Linux
+
+0.48 | REQ : Brightloop Technologies - AI Intern
+       BEST: Machine Learning Intern (Volunteer), Example Student Research Club (Jun 2026 - Aug 2026)
+
+0.46 | REQ : Experience building AI voice or chat applications.
+       BEST: Solved 250+ problems on coding platforms and active member of the college AI/ML club.
+
+0.45 | REQ : Experience with AI agents or workflow automation.
+       BEST: Solved 250+ problems on coding platforms and active member of the college AI/ML club.
+
+0.44 | REQ : Build and experiment with AI-powered tools, agents, and automations.
+       BEST: Solved 250+ problems on coding platforms and active member of the college AI/ML club.
+
+0.44 | REQ : Knowledge of RAG, vector databases, prompting, or LLM APIs.
+       BEST: Have not worked with TensorFlow or JAX yet, and currently learning them alongside distributed tools such as
+
+0.44 | REQ : Develop AI workflows using APIs, Python, automation tools, and agent frameworks.
+       BEST: Have not worked with TensorFlow or JAX yet, and currently learning them alongside distributed tools such as
+
+0.43 | REQ : Familiarity with APIs and basic software development.
+       BEST: Tools: Git, GitHub, Docker, FastAPI, VS Code, Jupyter, Linux
+
+0.41 | REQ : You will work closely with our product and engineering teams to experiment, build, automate, and implement AI solutions across our products and internal operations.
+       BEST: Solved 250+ problems on coding platforms and active member of the college AI/ML club.
+
+0.41 | REQ : Experiment with voice AI, chatbots, computer-use agents, and AI assistants.
+       BEST: Document Question Answering Assistant (Personal Project)
+
+0.41 | REQ : Work closely with developers, product managers, and business teams.
+       BEST: Assisted senior members in preparing datasets, writing evaluation scripts and keeping experiment notes and project reports.
+
+0.41 | REQ : Strong interest in AI, LLMs, automation, and emerging technologies.
+       BEST: Solved 250+ problems on coding platforms and active member of the college AI/ML club.
+
+0.39 | REQ : Integrate AI features into existing products.
+       BEST: Machine Learning Intern (Volunteer), Example Student Research Club (Jun 2026 - Aug 2026)
+
+0.37 | REQ : Quickly prototype ideas and convert them into working solutions.
+       BEST: Tools: Git, GitHub, Docker, FastAPI, VS Code, Jupyter, Linux
+
+0.36 | REQ : Test different AI models and compare performance, cost, speed, and accuracy.
+       BEST: Machine Learning Intern (Volunteer), Example Student Research Club (Jun 2026 - Aug 2026)
+
+0.32 | REQ : Problem-solving mindset and willingness to build things independently.
+       BEST: Solved 250+ problems on coding platforms and active member of the college AI/ML club.
+
+0.31 | REQ : Automate repetitive internal business processes using AI.
+       BEST: Solved 250+ problems on coding platforms and active member of the college AI/ML club.
+
+0.28 | REQ : Ability to learn and experiment quickly.
+       BEST: ACHIEVEMENTS AND ACTIVITIES
