@@ -25,3 +25,7 @@ def test_short_fragments_dropped():
 def test_sentences_are_split():
     text = "Built a REST API with FastAPI. Deployed it using Docker containers."
     assert len(split_chunks(text)) == 2
+
+def test_all_caps_headers_are_dropped():
+    text = "ACHIEVEMENTS AND ACTIVITIES\nBuilt a REST API using FastAPI"
+    assert split_chunks(text) == ["Built a REST API using FastAPI"]

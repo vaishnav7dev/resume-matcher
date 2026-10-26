@@ -30,3 +30,15 @@ def test_postgresql_is_not_plain_sql():
 def test_case_insensitive_and_empty():
     assert "python" in extract_skills("PYTHON")
     assert extract_skills("") == set()
+
+def test_negated_skill_is_not_counted():
+    assert "tensorflow" not in extract_skills("Have not worked with TensorFlow or JAX yet")
+
+
+def test_negation_does_not_leak_into_next_sentence():
+    skills = extract_skills("Never used Spark. Built models in PyTorch.")
+    assert "pytorch" in skills
+
+
+def test_plain_algorithms_is_not_a_skill():
+    assert "data structures and algorithms" not in extract_skills("ML concepts and algorithms")

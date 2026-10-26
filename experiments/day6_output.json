@@ -1,0 +1,153 @@
+{
+  "score": 71.9,
+  "semantic": 61.5,
+  "coverage": 87.5,
+  "matched_skills": [
+    "data analysis",
+    "machine learning",
+    "numpy",
+    "pandas",
+    "python",
+    "pytorch",
+    "scikit-learn"
+  ],
+  "missing_skills": [
+    "tensorflow"
+  ],
+  "weak_requirements": [
+    {
+      "requirement": "Willingness to learn new technologies and work on practical projects.",
+      "best_match": "Solved 250+ problems on coding platforms and active member of the college AI/ML club.",
+      "score": 0.32,
+      "fit": 16
+    },
+    {
+      "requirement": "Academic projects, personal projects, or relevant certifications are an advantage.",
+      "best_match": "Completed the Machine Learning Specialization on Coursera and a SQL for Data Analysis course.",
+      "score": 0.32,
+      "fit": 17
+    }
+  ],
+  "matches": [
+    {
+      "requirement": "NovaMind Labs - AI/ML Intern",
+      "best_match": "Machine Learning Intern (Volunteer), Example Student Research Club (Jun 2026 - Aug 2026)",
+      "score": 0.65,
+      "fit": 100
+    },
+    {
+      "requirement": "NovaMind Labs is looking for a motivated and technically curious AI/ML Intern for students and fresh graduates who want hands-on experience in artificial intelligence, machine learning, data analysis, and developing AI-powered applications.",
+      "best_match": "Machine Learning Intern (Volunteer), Example Student Research Club (Jun 2026 - Aug 2026)",
+      "score": 0.62,
+      "fit": 92
+    },
+    {
+      "requirement": "The intern will work on practical projects, experiment with machine learning models, and contribute to building intelligent solutions.",
+      "best_match": "Machine Learning Intern (Volunteer), Example Student Research Club (Jun 2026 - Aug 2026)",
+      "score": 0.71,
+      "fit": 100
+    },
+    {
+      "requirement": "Assist in developing, training, testing, and evaluating machine learning models.",
+      "best_match": "Machine Learning Intern (Volunteer), Example Student Research Club (Jun 2026 - Aug 2026)",
+      "score": 0.61,
+      "fit": 89
+    },
+    {
+      "requirement": "Support the development of AI-powered applications and prototypes.",
+      "best_match": "Finalist, college-level hackathon 2026, for building a sensor-based machine health monitor in 24 hours.",
+      "score": 0.37,
+      "fit": 30
+    },
+    {
+      "requirement": "Collect, clean, preprocess, and analyse datasets for model development.",
+      "best_match": "Assisted senior members in preparing datasets, writing evaluation scripts and keeping experiment notes and project reports.",
+      "score": 0.46,
+      "fit": 53
+    },
+    {
+      "requirement": "Research AI/ML algorithms, frameworks, tools, and emerging technologies.",
+      "best_match": "Machine Learning Intern (Volunteer), Example Student Research Club (Jun 2026 - Aug 2026)",
+      "score": 0.51,
+      "fit": 65
+    },
+    {
+      "requirement": "Assist in implementing solutions using Python and relevant AI/ML libraries.",
+      "best_match": "Solved 250+ problems on coding platforms and active member of the college AI/ML club.",
+      "score": 0.57,
+      "fit": 80
+    },
+    {
+      "requirement": "Work with APIs and integrate AI models into applications.",
+      "best_match": "Have not worked with TensorFlow or JAX yet, and currently learning them alongside distributed tools such as",
+      "score": 0.49,
+      "fit": 61
+    },
+    {
+      "requirement": "Evaluate model performance and assist in improving accuracy and efficiency.",
+      "best_match": "Collaborated with a team of four to test and compare three baseline models and presented the results in a weekly review.",
+      "score": 0.45,
+      "fit": 49
+    },
+    {
+      "requirement": "Maintain technical documentation and project reports.",
+      "best_match": "Assisted senior members in preparing datasets, writing evaluation scripts and keeping experiment notes and project reports.",
+      "score": 0.49,
+      "fit": 61
+    },
+    {
+      "requirement": "Collaborate with the team to develop and test AI-driven solutions.",
+      "best_match": "Solved 250+ problems on coding platforms and active member of the college AI/ML club.",
+      "score": 0.51,
+      "fit": 64
+    },
+    {
+      "requirement": "Pursuing or completed a degree in Computer Science, Information Technology, Artificial Intelligence, Data Science, or a related field.",
+      "best_match": "Completed the Machine Learning Specialization on Coursera and a SQL for Data Analysis course.",
+      "score": 0.51,
+      "fit": 65
+    },
+    {
+      "requirement": "Basic programming knowledge in Python.",
+      "best_match": "Languages: Python, C++, SQL, JavaScript (basic)",
+      "score": 0.51,
+      "fit": 65
+    },
+    {
+      "requirement": "Understanding of fundamental machine learning concepts and algorithms.",
+      "best_match": "Machine Learning Intern (Volunteer), Example Student Research Club (Jun 2026 - Aug 2026)",
+      "score": 0.41,
+      "fit": 40
+    },
+    {
+      "requirement": "Familiarity with libraries such as NumPy, Pandas, Scikit-learn, TensorFlow, or PyTorch is an advantage.",
+      "best_match": "ML and Data: NumPy, Pandas, Scikit-learn, PyTorch, Matplotlib, Hugging Face Transformers, sentence-transformers",
+      "score": 0.57,
+      "fit": 80
+    },
+    {
+      "requirement": "Basic knowledge of data preprocessing, model training, and evaluation.",
+      "best_match": "Completed the Machine Learning Specialization on Coursera and a SQL for Data Analysis course.",
+      "score": 0.45,
+      "fit": 50
+    },
+    {
+      "requirement": "Strong analytical and problem-solving skills.",
+      "best_match": "Solved 250+ problems on coding platforms and active member of the college AI/ML club.",
+      "score": 0.39,
+      "fit": 35
+    },
+    {
+      "requirement": "Willingness to learn new technologies and work on practical projects.",
+      "best_match": "Solved 250+ problems on coding platforms and active member of the college AI/ML club.",
+      "score": 0.32,
+      "fit": 16
+    },
+    {
+      "requirement": "Academic projects, personal projects, or relevant certifications are an advantage.",
+      "best_match": "Completed the Machine Learning Specialization on Coursera and a SQL for Data Analysis course.",
+      "score": 0.32,
+      "fit": 17
+    }
+  ]
+}

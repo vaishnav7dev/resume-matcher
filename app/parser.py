@@ -40,6 +40,6 @@ def split_chunks(text: str, min_len: int = 25) -> list[str]:
     for line in merged:
         for sentence in re.split(r"(?<=[.!?])\s+(?=[A-Z])", line):
             sentence = sentence.strip()
-            if len(sentence) >= min_len:
+            if len(sentence) >= min_len and not sentence.isupper():
                 chunks.append(sentence)
     return chunks

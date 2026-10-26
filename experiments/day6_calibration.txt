@@ -1,0 +1,26 @@
+Resume chunks: 25 | JD chunks in total: 64
+
+RAW best-match values across all JDs:
+   5th percentile: 0.28
+  10th percentile: 0.30
+  25th percentile: 0.38
+  50th percentile: 0.45
+  75th percentile: 0.51
+  90th percentile: 0.57
+  95th percentile: 0.62
+
+PER JD (raw)        mean   min   max
+  jd1.txt              0.50  0.32  0.71
+  jd2.txt              0.44  0.29  0.60
+  jd3.txt              0.44  0.26  0.65
+  jd_unrelated.txt     0.30  0.24  0.39
+
+lo hint 0.30 = mean raw value of jd_unrelated.txt
+hi hint 0.57 = 90th percentile
+
+SEMANTIC SCORE (0 to 100) of each JD under different (lo, hi):
+  JD file                0.10-0.55   0.25-0.65   0.30-0.57
+  jd1.txt                       88          61          73
+  jd2.txt                       75          47          52
+  jd3.txt                       75          47          52
+  jd_unrelated.txt              44          12           0

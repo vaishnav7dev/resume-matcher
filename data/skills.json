@@ -81,7 +81,7 @@
   "ci/cd": ["ci/cd", "cicd", "github actions", "jenkins"],
   "unit testing": ["unit testing", "unit tests", "pytest"],
 
-  "data structures and algorithms": ["data structures", "algorithms", "dsa"],
+  "data structures and algorithms": ["data structures","dsa"],
   "oop": ["oop", "object-oriented", "object oriented"],
   "agile": ["agile", "scrum"],
 
