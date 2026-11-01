@@ -222,3 +222,5 @@ scratch.py
 
 *.pdf
 data/jd*.txt
+experiments/*.txt
+experiments/*.json

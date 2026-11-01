@@ -29,3 +29,10 @@ def test_sentences_are_split():
 def test_all_caps_headers_are_dropped():
     text = "ACHIEVEMENTS AND ACTIVITIES\nBuilt a REST API using FastAPI"
     assert split_chunks(text) == ["Built a REST API using FastAPI"]
+
+def test_inline_bullets_are_split():
+    text = "What you will do• Build REST APIs using FastAPI • Evaluate LLM based extraction pipelines"
+    assert split_chunks(text) == [
+        "Build REST APIs using FastAPI",
+        "Evaluate LLM based extraction pipelines",
+    ]

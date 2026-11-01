@@ -22,6 +22,10 @@ def clean_text(text: str) -> str:
 
 def split_chunks(text: str, min_len: int = 25) -> list[str]:
     """Split text into bullet/sentence-sized chunks."""
+    # Step 0: bullets in the middle of a line (common in pasted JDs)
+    # become line breaks, so "do• Build X • Develop Y" turns into 3 lines.
+    text = re.sub(r"\s*[•●▪◦‣]\s*", "\n• ", text)
+
     # Step 1: rebuild lines. PDFs wrap long bullets onto a second line,
     # so a line starting with a lowercase letter is joined to the previous one.
     merged = []
@@ -35,7 +39,7 @@ def split_chunks(text: str, min_len: int = 25) -> list[str]:
         else:
             merged.append(line.lstrip(BULLETS + " \t"))
 
-    # Step 2: split each line into sentences, then drop tiny fragments.
+    # Step 2: split each line into sentences, then drop tiny fragments and headers.
     chunks = []
     for line in merged:
         for sentence in re.split(r"(?<=[.!?])\s+(?=[A-Z])", line):
