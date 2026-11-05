@@ -66,7 +66,13 @@
     .chip.ok { background: var(--good-bg); color: var(--good); }
     .chip.miss { background: var(--bad-bg); color: var(--bad); }
     .error { padding: 10px 14px; border-radius: 8px; background: var(--bad-bg); color: var(--bad); }
-
+    .result h2 { margin: 20px 0 4px; font-size: 1.05rem; }
+    .result .muted { margin: 0; color: var(--muted); font-size: 0.9rem; }
+    .weak { margin: 8px 0 0; padding: 0; list-style: none; }
+    .weak li { padding: 10px 0; border-top: 1px solid var(--line); }
+    .weak .req { margin: 0; font-weight: 600; }
+    .weak .best { margin: 2px 0 0; color: var(--muted); font-size: 0.9rem; }
+    .weak .fit { color: var(--bad); font-weight: 600; }
     @media (max-width: 720px) { .grid { grid-template-columns: 1fr; } }
   </style>
 </head>
@@ -105,6 +111,116 @@
     </form>
 
     <section id="result" aria-live="polite"></section>
-  </main>
+  </main><script>
+    const form = document.getElementById("match-form");
+    const button = document.getElementById("analyze-btn");
+    const statusEl = document.getElementById("status");
+    const resultEl = document.getElementById("result");
+    const fileInput = document.getElementById("resume-file");
+
+    // Small helper: create an element, optionally with a class and plain text.
+    function el(tag, className, text) {
+      const node = document.createElement(tag);
+      if (className) node.className = className;
+      if (text !== undefined) node.textContent = text;
+      return node;
+    }
+
+    function setBusy(busy) {
+      button.disabled = busy;
+      statusEl.textContent = busy
+        ? "Analyzing... the first request can take a few seconds."
+        : "";
+    }
+
+    function showError(message) {
+      resultEl.replaceChildren(el("p", "error", message));
+    }
+
+    // Turn whatever the API sent back into a message a person can read.
+    function readableError(payload) {
+      if (payload && typeof payload.detail === "string") return payload.detail;
+      return "Please paste a job description and add your resume (PDF or text).";
+    }
+
+    function chipList(items, cssClass, emptyText) {
+      if (!items.length) return el("p", "muted", emptyText);
+      const list = el("ul", "chips");
+      for (const item of items) list.append(el("li", "chip " + cssClass, item));
+      return list;
+    }
+
+    function renderResult(r) {
+      const box = el("div", "result");
+
+      // 1. Big score and bar
+      const score = Math.max(0, Math.min(100, Math.round(r.score)));
+      box.append(el("p", "score", score + "%"));
+      const bar = el("div", "bar");
+      bar.setAttribute("aria-hidden", "true");
+      const fill = document.createElement("span");
+      fill.style.width = score + "%";
+      bar.append(fill);
+      box.append(bar);
+
+      // 2. The two parts of the score
+      const coverageText = r.coverage === null
+        ? "no known skills found in the job description"
+        : Math.round(r.coverage) + "%";
+      box.append(el("p", "muted",
+        "Meaning match: " + Math.round(r.semantic) + "%  |  Skill coverage: " + coverageText));
+
+      // 3. Skills
+      box.append(el("h2", null, "Skills you have"));
+      box.append(chipList(r.matched_skills, "ok", "No skills from the job description were found in your resume."));
+      box.append(el("h2", null, "Skills to add or show"));
+      box.append(chipList(r.missing_skills, "miss", "None. Your resume covers every skill we detected."));
+
+      // 4. Weakest requirements
+      box.append(el("h2", null, "Requirements your resume covers least"));
+      if (!r.weak_requirements.length) {
+        box.append(el("p", "muted", "Every requirement has a reasonably close match in your resume."));
+      } else {
+        const list = el("ul", "weak");
+        for (const w of r.weak_requirements) {
+          const item = el("li");
+          item.append(el("p", "req", w.requirement));
+          const best = el("p", "best", "Closest line in your resume: ");
+          best.append(el("em", null, w.best_match));
+          best.append(" ");
+          best.append(el("span", "fit", "(fit " + w.fit + "/100)"));
+          item.append(best);
+          list.append(item);
+        }
+        box.append(list);
+      }
+
+      resultEl.replaceChildren(box);
+      resultEl.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault();               // stay on this page
+
+      const data = new FormData(form);      // all fields, including the file
+      if (!fileInput.files.length) data.delete("resume");  // send the file only if one was chosen
+
+      resultEl.replaceChildren();
+      setBusy(true);
+      try {
+        const response = await fetch("/analyze", { method: "POST", body: data });
+        const payload = await response.json().catch(() => null);
+        if (!response.ok) {
+          showError(readableError(payload));
+        } else {
+          renderResult(payload);
+        }
+      } catch (err) {
+        showError("Could not reach the server. Check that it is running and try again.");
+      } finally {
+        setBusy(false);
+      }
+    });
+  </script>
 </body>
 </html>
